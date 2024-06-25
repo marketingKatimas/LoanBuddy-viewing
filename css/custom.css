@@ -676,6 +676,14 @@ a.grid_item_adventure figure {
     #offers #tabs ul li {
         margin: 0px 0px !important;
     }
+
+    #offers #tabs ul {
+        margin-left: 20px !important;
+    }
+
+    .nav-link {
+        padding: 5px !important;
+     }
 }
 
 .btn-13-per {
