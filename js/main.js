@@ -41,7 +41,7 @@
 		navbar: {
 			title: 'MENU'
 		},
-		navbars: [{position:'bottom',content: ['<a href="#0">© 2022 Panagea</a>']}]}, 
+		navbars: [{position:'bottom',content: ['<a href="#0">© 2024 LoanBuddy</a>']}]}, 
 		{
 		// configuration
 		clone: true,
