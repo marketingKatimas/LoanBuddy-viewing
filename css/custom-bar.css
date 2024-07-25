@@ -1,0 +1,104 @@
+/* .container {
+    display: flex;
+    align-items: flex-start;
+} */
+
+.progress-bar-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 30px;
+}
+
+.progress-bar-step-vertical {
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.progress-bar-step .step {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6c757d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: -30px;
+}
+
+.progress-bar-step .step.active, 
+.progress-bar-step .step.completed {
+    background-color: #1068B2;
+}
+
+.progress-bar-step .line {
+    width: 30px;
+    background-color: #6c757d;
+    height: 4px;
+}
+
+.progress-bar-step .line-vertical {
+    width: 4px;
+    background-color: #6c757d;
+    height: 45px;
+}
+
+.progress-bar-step .line.active, 
+.progress-bar-step .line.completed {
+    background-color: #1068B2;
+}
+
+.progress-bar-step .line:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.completed {
+    background-color: #1068B2;
+}
+
+.line.completed {
+    background-color: #1068B2;
+}
+
+.progress-content {
+    display: none;
+    min-height: 290px
+}
+
+.progress-content.active {
+    display: flex;
+}
+
+.apply-btn-1 {
+    display: none;
+}
+
+.apply-btn-1.active {
+    display: block;
+}
+
+.text-loanbuddy-grey {
+    color: #a6b3be;
+}
+
+.text-loanbuddy-grey.viewed {
+    color: #1068B2;
+}
+
+
+@media (max-width: 991px) {
+    .web-stepper-bar {
+        display: none !important;
+    }
+}
+
+@media (min-width: 991px) {
+    .mobile-stepper-bar {
+        display: none;
+    }
+}
