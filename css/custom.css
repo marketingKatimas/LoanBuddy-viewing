@@ -135,19 +135,6 @@ a[class~="nav-link"][class~="active"] {
     text-decoration: underline;
 }
 
-@media (min-width: 768px) {
-    .card-inner1 {
-        width: 18rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .carousel-item-inner1 {
-        display: flex !important;
-        justify-content: center !important;
-    }
-}
-
 
 /*
 .hero_single.version_2:before {
@@ -253,18 +240,19 @@ a[class~="nav-link"][class~="active"] {
 
 #offers .tab-content .price h6 {
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 0;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #fb5849;
     display: inline-block;
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
     border-radius: 2px;
     font-size: 18px;
     /* font-weight: 700; */
     color: #fff;
+    border-radius: 3px;
 }
 
 .custom-search-input-2 {
@@ -520,6 +508,10 @@ a.btn_1:hover, .btn_1:hover {
     color: #fff;
 }
 
+.btn_1_color_2 {
+    background: #1069b1 !important;
+}
+
 .score strong {
     background-color: #1069b1;
 }
@@ -670,7 +662,14 @@ a.grid_item_adventure figure {
 .header {
     /* z-index: 100 !important; */
     z-index: 2 !important;
+    /* background-color: white; */
+    backdrop-filter: blur(7px);
 }
+
+header.header.sticky {
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
 
 @media (max-width: 576px) {
     #offers #tabs ul li {
@@ -684,6 +683,20 @@ a.grid_item_adventure figure {
     .nav-link {
         padding: 5px !important;
      }
+
+     #offers .tab-content .price h6 {
+        top: 0px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #offers .tab-content h4 {
+        font-size: 14px;
+        margin-right: 50px;
+    }
 }
 
 .btn-13-per {
@@ -735,15 +748,114 @@ a.box_feat i {
     color: #1069b1;
 }
 
+.apply-btn-1 {
+    margin-left: -20px;
+}
+
+/* Why Choose LoanBuddy Icon */
+.feature-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fdfdfd;
+}
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.feature-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* ------------------------ */
+
+.margin_0_85 {
+    padding-bottom: 85px;
+}
+
+#reccomended .item2 {
+    margin: 0 15px;
+}
+
+.padding_hero {
+    padding-bottom: 4.5rem !important;
+    padding-top: 6rem !important;
+}
+
+.call-action-p {
+    margin-bottom: 15px;
+}
+
+.header .main-menu > ul > li span > a {
+    color: #444;
+}
+
+.owl-img {
+    width: 50% !important;
+    height: 75% !important;
+}
+
+/* .hero_banner_char1 {
+    right: 120px;
+    position: absolute;
+} */
+
+.accordion-item-transparent {
+    background-color: transparent;
+}
+
 @media (max-width: 991px) {
     .custom-search-input-2 .btn_home_search {
         margin-top: 7px;
     }
+
+    .hero_banner_char1 {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-inner1 {
+        width: 18rem;
+    }
+
+    .margin_middle {
+        max-width: 745px;
+        margin-top: 20px;
+    }
+
+    .margin_middle_hero {
+        max-width: 888px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 768px) {
+    .carousel-item-inner1 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .btn-13-per {
         width: 25%;
+    }
+
+    .call-agent {
+        display: none;
+    }
+
+    .call-left-content {
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -756,6 +868,10 @@ a.box_feat i {
 
     .apply-now-custom1 {
         margin: 0px 5%;
+    }
+
+    .hero_btn_1 {
+        text-align: center;
     }
 }
 
@@ -777,3 +893,28 @@ a.box_feat i {
       max-width: 1600px;
     }
 } */
+
+@media (min-width: 992px) {
+    .header {
+        padding-left: 120px;
+        padding-right: 180px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .header {
+        padding-left: 180px;
+        padding-right: 240px;
+    }
+
+    .margin_middle {
+        max-width: 1100px;
+        margin-top: 20px;
+    }
+
+    .margin_middle_hero {
+        max-width: 1150px;
+        margin-top: 20px;
+    }
+}
