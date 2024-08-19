@@ -807,8 +807,16 @@ a.box_feat i {
     position: absolute;
 } */
 
+.hero_banner_char1 {
+    width: 100%;
+}
+
 .accordion-item-transparent {
     background-color: transparent;
+}
+
+.margin-contact-form {
+    margin-top: 85px
 }
 
 @media (max-width: 991px) {

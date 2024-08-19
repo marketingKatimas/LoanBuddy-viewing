@@ -62,11 +62,11 @@
 		<nav id="menu" class="main-menu">
 			<ul>
 				<li><span><a href="index.html">Home</a></span></li>
-				<!-- <li><span><a href="about-loan-buddy.html">About Us</a></span></li>
-				<li><span><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></span></li> -->
-				<li><span><a href="apply-now-loan-buddy.html">Apply Now</a></span></li>
+				<li><span><a href="about-loan-buddy.html">About Us</a></span></li>
+				<li><span><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></span></li>
 				<li><span><a href="contacts-loan-buddy.html">Contact Us</a></span></li>
-				<!-- <li><span><a href="contacts-loan-buddy.html">BM</a></span></li> -->
+				<li><span><a href="apply-now-loan-buddy.html">Apply Now</a></span></li>
+				<li><span><a href="apply-now-loan-buddy.html">BM</a></span></li>
 			</ul>
 		</nav>
 
@@ -74,88 +74,114 @@
 	<!-- /header -->
 	
 	<main>
-		<!-- <section class="hero_in contacts">
+		
+		<section class="hero_in general">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Contact Us</h1>
+					<h1 class="fadeInUp"><span></span>Apply Now</h1>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!--/hero_in-->
-
 
 
 		<div class="bg_color_1">
 			<div class="container margin_80_55">
 				<div class="main_title_2 mb-2">
-					<!-- <span><em></em></span> -->
-					<h2>Contact Us</h2>
-					<p>Welcome to let us know if have any questions.</p>
+					<span><em></em></span>
+					<h2>Application Form</h2>
+					<p>We will provide the suitable financial plan for you.</p>
 				</div>
-
-				<div class="wrapper row justify-content-between margin-contact-form">
-					<div class="col-lg-5">
-						<!-- <div class="map_contact">
+				<div class="box_detail booking apply-now-custom1 border-0">
+					<!-- <div class="price text-center">
+						<h5 class="d-inline">Apply Now</h5>
+						<div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div>
+					</div> -->
+					<div id="message-contact-detail"></div>
+					<form method="post" action="phpmailer/contact_detail_template_email.php" id="contact_detail" autocomplete="off">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Name as per ic" name="name_detail" id="name_detail">
+							<i class="ti-user"></i>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" placeholder="Email" name="email_detail" id="email_detail">
+							<i class="icon_mail_alt"></i>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Loan Amount" name="loan_amount" id="loan_amount">
+							<i class="icon-dollar"></i>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Contact No" name="contact_no" id="contact_no">
+							<i class="icon-mobile"></i>
+						</div>
+						<!-- <div class="form-group">
+							<textarea placeholder="Your message" class="form-control" name="message_detail" id="message_detail"></textarea>
+							<i class="ti-pencil"></i>
 						</div> -->
-						<div id="map" class="map map_single add_bottom_30"></div>
-						<!-- /map -->
-					</div>
-					<div class="col-lg-6">
-						<h4>Send us a message</h4>
-						<p></p>
-						<div id="message-contact"></div>
-						<form method="post" action="phpmailer/contact_template_email.php" id="contactform" autocomplete="off">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Name</label>
-										<input class="form-control" type="text" id="name_contact" name="name_contact">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Last name</label>
-										<input class="form-control" type="text" id="lastname_contact" name="lastname_contact">
-									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Email</label>
-										<input class="form-control" type="email" id="email_contact" name="email_contact">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Telephone</label>
-										<input class="form-control" type="text" id="phone_contact" name="phone_contact">
-									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<label>Message</label>
-								<textarea class="form-control" id="message_contact" name="message_contact" style="height:150px;"></textarea>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Are you human? 3 + 1 =</label>
-										<input class="form-control" type="text" id="verify_contact" name="verify_contact">
-									</div>
-								</div>
-							</div>
-							<p class="add_top_30"><input type="submit" value="Submit" class="btn_1 rounded" id="submit-contact"></p>
-						</form>
-					</div>
+						<div class="form-group">
+							<input placeholder="Are you human? 1 + 2 =" class="form-control" type="text" id="verify_contact_detail" name="verify_contact_detail">
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Submit" class="add_top_30 btn_1 full-width purchase" id="submit-contact-detail">
+						</div>
+						<!-- <a href="wishlist.html" class="btn_1 full-width outline wishlist"><i class="icon_heart"></i> Add to wishlist</a> -->
+						<div class="text-center"><small>No money charged in this step</small></div>
+					</form>
 				</div>
-				<!-- /row -->
+				<!--/row-->
 			</div>
-			<!-- /container -->
+			<!--/container-->
 		</div>
-		<!-- /bg_color_1 -->
+		<!--/bg_color_1-->
+
+		<!-- <div class="container margin_80_55">
+			<div class="main_title_2">
+				<span><em></em></span>
+				<h2>Our founders</h2>
+				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+			</div>
+			<div id="carousel" class="owl-carousel owl-theme">
+				<div class="item">
+					<a href="#0">
+						<div class="title">
+							<h4>Julia Holmes<em>CEO</em></h4>
+						</div><img src="img/1_carousel.jpg" alt="">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#0">
+						<div class="title">
+							<h4>Lucas Smith<em>Marketing</em></h4>
+						</div><img src="img/2_carousel.jpg" alt="">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#0">
+						<div class="title">
+							<h4>Paul Stephens<em>Business strategist</em></h4>
+						</div><img src="img/3_carousel.jpg" alt="">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#0">
+						<div class="title">
+							<h4>Pablo Himenez<em>Customer Service</em></h4>
+						</div><img src="img/4_carousel.jpg" alt="">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#0">
+						<div class="title">
+							<h4>Andrew Stuttgart<em>Admissions</em></h4>
+						</div><img src="img/5_carousel.jpg" alt="">
+					</a>
+				</div>
+			</div>
+			
+		</div> -->
+		<!-- /carousel -->
+		<!--/container-->
 	</main>
 	<!--/main-->
 	
@@ -298,13 +324,6 @@
     <script src="js/common_scripts.js"></script>
     <script src="js/main.js"></script>
 	<script src="phpmailer/validate.js"></script>
-	
-	<!-- SPECIFIC SCRIPTS -->
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/map_branches_loan_buddy.js"></script>
-	<script src="js/infobox.js"></script>
-	<!-- <script src="js/mapmarker.jquery.js"></script>
-	<script src="js/mapmarker_func.jquery.js"></script> -->
 	
 </body>
 </html>

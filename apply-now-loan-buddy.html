@@ -26,247 +26,378 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
-	
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/apply_form/material-design-iconic-font/css/material-design-iconic-font.css">
+
+	<!-- APPLY FORM CSS -->
+	<link href="css/apply-form.css" rel="stylesheet">
+
 </head>
 
 <body>
 	
 	<div id="page">
 		
-	<header class="header menu_fixed">
-		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
-		<div id="logo">
-			<a href="index.html">
-				<img src="img/logo.png" width="150" height="36" alt="" class="logo_normal">
-				<img src="img/logo_sticky.png" width="150" height="36" alt="" class="logo_sticky">
+		<header class="header menu_fixed">
+			<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+			<div id="logo">
+				<a href="index.html">
+					<img src="img/logo.png" width="150" height="36" alt="" class="logo_normal">
+					<img src="img/logo_sticky.png" width="150" height="36" alt="" class="logo_sticky">
+				</a>
+			</div>
+			<!-- <ul id="top_menu">
+				<li>
+					<div class="styled-select" id="lang-selector">
+						<select>
+							<option value="English" selected>English</option>
+							<option value="Malay">Malay</option>
+						</select>
+					</div>
+				</li>
+			</ul> -->
+			<!-- /top_menu -->
+			<a href="#menu" class="btn_mobile">
+				<div class="hamburger hamburger--spin" id="hamburger">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
 			</a>
-		</div>
-		<!-- <ul id="top_menu">
-			<li>
-				<div class="styled-select" id="lang-selector">
-					<select>
-						<option value="English" selected>English</option>
-						<option value="Malay">Malay</option>
-					</select>
-				</div>
-			</li>
-		</ul> -->
-		<!-- /top_menu -->
-		<a href="#menu" class="btn_mobile">
-			<div class="hamburger hamburger--spin" id="hamburger">
-				<div class="hamburger-box">
-					<div class="hamburger-inner"></div>
-				</div>
-			</div>
-		</a>
-		<nav id="menu" class="main-menu">
-			<ul>
-				<li><span><a href="index.html">Home</a></span></li>
-				<li><span><a href="about-loan-buddy.html">About Us</a></span></li>
-				<li><span><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></span></li>
-				<li><span><a href="contacts-loan-buddy.html">Contact Us</a></span></li>
-				<li><span><a href="apply-now-loan-buddy.html">Apply Now</a></span></li>
-				<li><span><a href="apply-now-loan-buddy.html">BM</a></span></li>
-			</ul>
-		</nav>
+			<nav id="menu" class="main-menu">
+				<ul>
+					<li><span><a href="index.html">Home</a></span></li>
+					<!-- <li><span><a href="about-loan-buddy.html">About Us</a></span></li>
+					<li><span><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></span></li> -->
+					<li><span><a href="apply-now-loan-buddy.html">Apply Now</a></span></li>
+					<li><span><a href="contacts-loan-buddy.html">Contact Us</a></span></li>
+					<!-- <li><span><a href="apply-now-loan-buddy.html">BM</a></span></li> -->
+				</ul>
+			</nav>
 
-	</header>
-	<!-- /header -->
+		</header>
+		<!-- /header -->
 	
-	<main>
-		
-		<section class="hero_in general">
-			<div class="wrapper">
-				<div class="container">
-					<h1 class="fadeInUp"><span></span>Apply Now</h1>
+		<main>
+			<!-- <section class="hero_in general">
+				<div class="wrapper">
+					<div class="container">
+						<h1 class="fadeInUp"><span></span>Apply Now</h1>
+					</div>
 				</div>
+			</section> -->
+			<!--/hero_in-->
+
+			<div class="bg_color_1">
+				<div class="container margin_80_55">
+					<div class="main_title_2 mb-2">
+						<!-- <span><em></em></span> -->
+						<h2>Apply Now</h2>
+						<p>We will provide a Free Loan Eligibility Report for you.</p>
+					</div>
+
+					<div class="wrapper">
+						<form action="" id="wizard">
+							<!-- SECTION 1 -->
+							<h2></h2>
+							<section>
+								<div class="inner">
+									<div class="image-holder image-holder-center">
+										<img src="img/apply_form/form-page-1.png" alt="">
+									</div>
+									<div class="form-content" >
+										<div class="form-header">
+											<h3>Registration</h3>
+										</div>
+										<p>Please fill with your details</p>
+										<div class="form-row">
+											<div class="form-holder">
+												<input type="text" placeholder="First Name" class="form-control">
+											</div>
+											<div class="form-holder">
+												<input type="text" placeholder="Last Name" class="form-control">
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-holder">
+												<input type="text" placeholder="Your Email" class="form-control">
+											</div>
+											<div class="form-holder">
+												<input type="text" placeholder="Phone Number" class="form-control">
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-holder">
+												<input type="text" placeholder="Age" class="form-control">
+											</div>
+											<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+												<div class="checkbox-tick">
+													<label class="male">
+														<input type="radio" name="gender" value="male" checked> Male<br>
+														<span class="checkmark"></span>
+													</label>
+													<label class="female">
+														<input type="radio" name="gender" value="female"> Female<br>
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="checkbox-circle">
+											<label>
+												<input type="checkbox" checked> Nor again is there anyone who loves or pursues or desires to obtaini.
+												<span class="checkmark"></span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</section>
+			
+							<!-- SECTION 2 -->
+							<h2></h2>
+							<section>
+								<div class="inner">
+									<div class="image-holder image-holder-center">
+										<img src="img/apply_form/form-page-1.png" alt="">
+									</div>
+									<div class="form-content">
+										<div class="form-header">
+											<h3>Registration</h3>
+										</div>
+										<!-- <p>Please fill with additional info</p> -->
+										<p>Please fill your financial info</p>
+										<div class="form-row">
+											<!-- <div class="form-holder w-100">
+												<input type="text" placeholder="Address" class="form-control">
+											</div> -->
+											<div class="form-holder">
+												<input type="text" placeholder="Job Title" class="form-control">
+											</div>
+											<div class="form-holder">
+												<input type="text" placeholder="Duration of Works (Months)" class="form-control">
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-holder">
+												<input type="text" placeholder="Monthly Income" class="form-control">
+											</div>
+											<div class="form-holder">
+												<input type="text" placeholder="Other Income" class="form-control">
+											</div>
+										</div>
+			
+										<div class="form-row">
+											<!-- <div class="select">
+												<div class="form-holder">
+													<div class="select-control">Your country</div>
+													<i class="zmdi zmdi-caret-down"></i>
+												</div>
+												<ul class="dropdown">
+													<li rel="United States">United States</li>
+													<li rel="United Kingdom">United Kingdom</li>
+													<li rel="Viet Nam">Viet Nam</li>
+												</ul>
+											</div>
+											<div class="form-holder"></div> -->
+											<div class="select">
+												<div class="form-holder">
+													<div class="select-control">No. of Dependents</div>
+													<i class="zmdi zmdi-caret-down"></i>
+												</div>
+												<ul class="dropdown">
+													<li rel="0">None</li>
+													<li rel="1">1</li>
+													<li rel="2">2</li>
+													<li rel="99">3 or more</li>
+												</ul>
+											</div>
+											<div class="form-holder">
+												<input type="text" placeholder="Monthly Expenses" class="form-control">
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</section>
+			
+							<!-- SECTION 3 -->
+							<h2></h2>
+							<section>
+								<div class="inner">
+									<div class="image-holder image-holder-center">
+										<img src="img/apply_form/form-page-1.png" alt="">
+									</div>
+									<div class="form-content">
+										<div class="form-header">
+											<h3>Registration</h3>
+										</div>
+										<!-- <p>Send an optional message</p> -->
+										<p>Please fill your loan specifics</p>
+										<!-- <div class="form-row">
+											<div class="form-holder w-100">
+												<textarea name="" id="" placeholder="Your messagere here!" class="form-control" style="height: 99px;"></textarea>
+											</div>
+										</div> -->
+										<div class="form-row">
+											<div class="form-holder w-100">
+												<input type="text" placeholder="Desired Loan Amount" class="form-control">
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-holder w-100">
+												<input type="text" placeholder="Preferred Loan Term (Months)" class="form-control">
+											</div>
+										</div>
+										<div class="checkbox-circle mt-24">
+											<label>
+												<input type="checkbox" checked>  Please accept <a href="#">terms and conditions ?</a>
+												<span class="checkmark"></span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</section>
+						</form>
+					</div>
+				</div>
+				<!--/container-->
 			</div>
-		</section>
-		<!--/hero_in-->
+			<!--/bg_color_1-->
 
-
-		<div class="bg_color_1">
-			<div class="container margin_80_55">
-				<div class="main_title_2 mb-2">
+			<!-- <div class="container margin_80_55">
+				<div class="main_title_2">
 					<span><em></em></span>
-					<h2>Application Form</h2>
-					<p>We will provide the suitable financial plan for you.</p>
+					<h2>Our founders</h2>
+					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 				</div>
-				<div class="box_detail booking apply-now-custom1 border-0">
-					<!-- <div class="price text-center">
-						<h5 class="d-inline">Apply Now</h5>
-						<div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div>
-					</div> -->
-					<div id="message-contact-detail"></div>
-					<form method="post" action="phpmailer/contact_detail_template_email.php" id="contact_detail" autocomplete="off">
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Name as per ic" name="name_detail" id="name_detail">
-							<i class="ti-user"></i>
+				<div id="carousel" class="owl-carousel owl-theme">
+					<div class="item">
+						<a href="#0">
+							<div class="title">
+								<h4>Julia Holmes<em>CEO</em></h4>
+							</div><img src="img/1_carousel.jpg" alt="">
+						</a>
+					</div>
+					<div class="item">
+						<a href="#0">
+							<div class="title">
+								<h4>Lucas Smith<em>Marketing</em></h4>
+							</div><img src="img/2_carousel.jpg" alt="">
+						</a>
+					</div>
+					<div class="item">
+						<a href="#0">
+							<div class="title">
+								<h4>Paul Stephens<em>Business strategist</em></h4>
+							</div><img src="img/3_carousel.jpg" alt="">
+						</a>
+					</div>
+					<div class="item">
+						<a href="#0">
+							<div class="title">
+								<h4>Pablo Himenez<em>Customer Service</em></h4>
+							</div><img src="img/4_carousel.jpg" alt="">
+						</a>
+					</div>
+					<div class="item">
+						<a href="#0">
+							<div class="title">
+								<h4>Andrew Stuttgart<em>Admissions</em></h4>
+							</div><img src="img/5_carousel.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				
+			</div> -->
+			<!-- /carousel -->
+			<!--/container-->
+		</main>
+		<!--/main-->
+	
+		<footer>
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-5 col-md-12 pe-5">
+						<p><img src="img/logo.png" width="150" height="36" alt=""></p>
+						<p>LoanBuddy is an innovative financial platform in Malaysia designed to offer comprehensive loan resources and aims to provide trusted financial services.</p>
+						<div class="follow_us text-center">
+							<div>Follow us</div>
+							<ul>
+								<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
+								<li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>
+								<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
+								<li><a href="#0"><i class="bi bi-tiktok"></i></a></li>
+								<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+							</ul>
 						</div>
-						<div class="form-group">
-							<input class="form-control" type="email" placeholder="Email" name="email_detail" id="email_detail">
-							<i class="icon_mail_alt"></i>
+					</div>
+					<div class="col-lg-3 col-md-6 ms-lg-auto col-6">
+						<h5>Useful links</h5>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about-loan-buddy.html">About Us</a></li>
+							<li><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></li>
+							<li><a href="contacts-loan-buddy.html">Contact Us</a></li>
+							<li><a href="apply-now-loan-buddy.html">Apply Now</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<h5>Contact with Us</h5>
+						<ul class="contacts">
+							<li><a href="tel://61280932400"><i class="ti-mobile"></i> + 61 23 8093 3400</a></li>
+							<li><a href="mailto:info@LoanBuddy.com"><i class="ti-email"></i> info@LoanBuddy.com</a></li>
+						</ul>
+						<div id="newsletter">
+						<h6>Newsletter</h6>
+						<div id="message-newsletter"></div>
+						<form method="post" action="phpmailer/newsletter_template_email.php" name="newsletter_form" id="newsletter_form">
+							<div class="form-group">
+								<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
+								<input type="submit" value="Submit" id="submit-newsletter">
+							</div>
+						</form>
 						</div>
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Loan Amount" name="loan_amount" id="loan_amount">
-							<i class="icon-dollar"></i>
-						</div>
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Contact No" name="contact_no" id="contact_no">
-							<i class="icon-mobile"></i>
-						</div>
-						<!-- <div class="form-group">
-							<textarea placeholder="Your message" class="form-control" name="message_detail" id="message_detail"></textarea>
-							<i class="ti-pencil"></i>
-						</div> -->
-						<div class="form-group">
-							<input placeholder="Are you human? 1 + 2 =" class="form-control" type="text" id="verify_contact_detail" name="verify_contact_detail">
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Submit" class="add_top_30 btn_1 full-width purchase" id="submit-contact-detail">
-						</div>
-						<!-- <a href="wishlist.html" class="btn_1 full-width outline wishlist"><i class="icon_heart"></i> Add to wishlist</a> -->
-						<div class="text-center"><small>No money charged in this step</small></div>
-					</form>
+					</div>
 				</div>
 				<!--/row-->
-			</div>
-			<!--/container-->
-		</div>
-		<!--/bg_color_1-->
-
-		<!-- <div class="container margin_80_55">
-			<div class="main_title_2">
-				<span><em></em></span>
-				<h2>Our founders</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-			</div>
-			<div id="carousel" class="owl-carousel owl-theme">
-				<div class="item">
-					<a href="#0">
-						<div class="title">
-							<h4>Julia Holmes<em>CEO</em></h4>
-						</div><img src="img/1_carousel.jpg" alt="">
-					</a>
-				</div>
-				<div class="item">
-					<a href="#0">
-						<div class="title">
-							<h4>Lucas Smith<em>Marketing</em></h4>
-						</div><img src="img/2_carousel.jpg" alt="">
-					</a>
-				</div>
-				<div class="item">
-					<a href="#0">
-						<div class="title">
-							<h4>Paul Stephens<em>Business strategist</em></h4>
-						</div><img src="img/3_carousel.jpg" alt="">
-					</a>
-				</div>
-				<div class="item">
-					<a href="#0">
-						<div class="title">
-							<h4>Pablo Himenez<em>Customer Service</em></h4>
-						</div><img src="img/4_carousel.jpg" alt="">
-					</a>
-				</div>
-				<div class="item">
-					<a href="#0">
-						<div class="title">
-							<h4>Andrew Stuttgart<em>Admissions</em></h4>
-						</div><img src="img/5_carousel.jpg" alt="">
-					</a>
-				</div>
-			</div>
-			
-		</div> -->
-		<!-- /carousel -->
-		<!--/container-->
-	</main>
-	<!--/main-->
-	
-	<footer>
-		<div class="container margin_60_35">
-			<div class="row">
-				<div class="col-lg-5 col-md-12 pe-5">
-					<p><img src="img/logo.png" width="150" height="36" alt=""></p>
-					<p>LoanBuddy is an innovative financial platform in Malaysia designed to offer comprehensive loan comparisons and aims to provide trusted financial services.</p>
-					<div class="follow_us">
-						<ul>
-							<li>Follow us</li>
-							<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
-							<li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>
-							<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
-							<li><a href="#0"><i class="bi bi-tiktok"></i></a></li>
-							<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+				<hr>
+				<div class="row">
+					<div class="col-lg-6">
+						<ul id="footer-selector">
+							<li>
+								<div class="styled-select" id="lang-selector">
+									<select>
+										<option value="English" selected>English</option>
+										<option value="French">French</option>
+										<option value="Spanish">Spanish</option>
+										<option value="Russian">Russian</option>
+									</select>
+								</div>
+							</li>
+							<li>
+								<div class="styled-select" id="currency-selector">
+									<select>
+										<option value="US Dollars" selected>US Dollars</option>
+										<option value="Euro">Euro</option>
+									</select>
+								</div>
+							</li>
+							<li><img src="img/cards_all.svg" alt=""></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul id="additional_links">
+							<li><a href="#0">Terms and conditions</a></li>
+							<li><a href="#0">Privacy</a></li>
+							<li><span>© LoanBuddy</span></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 ms-lg-auto">
-					<h5>Useful links</h5>
-					<ul class="links">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about-loan-buddy.html">About Us</a></li>
-						<li><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></li>
-						<li><a href="contacts-loan-buddy.html">Contact Us</a></li>
-						<li><a href="apply-now-loan-buddy.html">Apply Now</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h5>Contact with Us</h5>
-					<ul class="contacts">
-						<li><a href="tel://61280932400"><i class="ti-mobile"></i> + 61 23 8093 3400</a></li>
-						<li><a href="mailto:info@LoanBuddy.com"><i class="ti-email"></i> info@LoanBuddy.com</a></li>
-					</ul>
-					<div id="newsletter">
-					<h6>Newsletter</h6>
-					<div id="message-newsletter"></div>
-					<form method="post" action="phpmailer/newsletter_template_email.php" name="newsletter_form" id="newsletter_form">
-						<div class="form-group">
-							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
-							<input type="submit" value="Submit" id="submit-newsletter">
-						</div>
-					</form>
-					</div>
-				</div>
 			</div>
-			<!--/row-->
-			<hr>
-			<div class="row">
-				<div class="col-lg-6">
-					<ul id="footer-selector">
-						<li>
-							<div class="styled-select" id="lang-selector">
-								<select>
-									<option value="English" selected>English</option>
-									<option value="French">French</option>
-									<option value="Spanish">Spanish</option>
-									<option value="Russian">Russian</option>
-								</select>
-							</div>
-						</li>
-						<li>
-							<div class="styled-select" id="currency-selector">
-								<select>
-									<option value="US Dollars" selected>US Dollars</option>
-									<option value="Euro">Euro</option>
-								</select>
-							</div>
-						</li>
-						<li><img src="img/cards_all.svg" alt=""></li>
-					</ul>
-				</div>
-				<div class="col-lg-6">
-					<ul id="additional_links">
-						<li><a href="#0">Terms and conditions</a></li>
-						<li><a href="#0">Privacy</a></li>
-						<li><span>© LoanBuddy</span></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--/footer-->
+		</footer>
+		<!--/footer-->
+
 	</div>
 	<!-- page -->
 	
@@ -324,6 +455,13 @@
     <script src="js/common_scripts.js"></script>
     <script src="js/main.js"></script>
 	<script src="phpmailer/validate.js"></script>
+
+	<!-- JQUERY -->
+	<script src="js/apply_form/jquery-3.3.1.min.js"></script>
+
+	<!-- JQUERY STEP -->
+	<script src="js/apply_form/jquery.steps.js"></script>
+	<script src="js/apply_form/apply.form.js"></script>
 	
 </body>
 </html>
