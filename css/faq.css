@@ -117,3 +117,11 @@
   color: #19b698;
   /* border: 1px solid #1069b1; */
 }
+
+button:hover .accordion-title {
+  color: #354255;
+}
+
+button:hover .icon {
+  color: #354255;
+}
