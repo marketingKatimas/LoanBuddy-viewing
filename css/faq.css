@@ -46,7 +46,7 @@
     }
     .accordion-title {
       padding: 1em 1.5em 1em 0;
-      color: var(--loanbuddyblue);
+      color: var(--loanbuddygreen);
     }
     .icon {
       display: inline-block;
@@ -114,6 +114,6 @@
 
 .btn_1_cust {
   background: transparent;
-  color: #1069b1;
-  border: 1px solid #1069b1;
+  color: #19b698;
+  /* border: 1px solid #1069b1; */
 }

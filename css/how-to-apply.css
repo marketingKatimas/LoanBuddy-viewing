@@ -1,0 +1,113 @@
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/css/bootstrap.min.css */
+/* *,::after,::before{box-sizing:border-box;} */
+:root {
+    --fontFamily: "Poppins", sans-serif;
+    --sub-fontFamily: "Ink Free";
+    --mainColor: #f14300;
+    --paragraphColor: #8c8c8c;
+    --whiteColor: #ffffff;
+    --titleColor: #2a2a2a;
+    --optionalColor: #ffc0a7;
+    --fontSize: 16px;
+    --transition: .5s;
+}
+/* h2,h3{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;color:var(--bs-heading-color);}
+h2{font-size:calc(1.325rem + .9vw);}
+@media (min-width:1200px){
+h2{font-size:2rem;}
+}
+h3{font-size:calc(1.3rem + .6vw);}
+@media (min-width:1200px){
+h3{font-size:1.75rem;}
+}
+p{margin-top:0;margin-bottom:1rem;}
+.container{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto;} */
+/* @media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+} */
+/* .row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));}
+.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y);} */
+/* @media (min-width:576px){
+.col-sm-6{flex:0 0 auto;width:50%;}
+}
+@media (min-width:992px){
+.col-lg-4{flex:0 0 auto;width:33.33333333%;}
+} */
+/* .text-center{text-align:center!important;} */
+
+[class^=flaticon-]:before,[class^=flaticon-]:after{font-family:Flaticon;font-style:normal;}
+.flaticon-position:before{content:"\f10f";}
+.flaticon-to-do-list:before{content:"\f110";}
+.flaticon-box:before{content:"\f111";}
+.flaticon-touch:before { content: "\f121"; }
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/css/style.css */
+p{color:var(--paragraphColor);}
+h2,h3{font-weight:600;color:var(--titleColor);line-height:1.4;}
+h3{font-size:20px;}
+.pt-100{padding-top:100px;}
+.pb-70{padding-bottom:70px;}
+.pt-45{padding-top:45px;}
+.section-title span{color:var(--mainColor);font-family:var(--sub-fontFamily);line-height:0;font-size:16px;text-transform:capitalize;margin:0;padding-bottom:5px;font-weight:600;}
+.section-title h2{font-size:38px;font-weight:500;margin-top:5px;line-height:1.5;}
+.section-title p{padding-top:10px;margin-bottom:0;}
+.process-bg{background-color:#f5f5f5;}
+.process-card{text-align:center;position:relative;margin-bottom:30px;}
+.process-card:hover i::after{right:10px;left:auto;}
+.process-card:hover .process-number{color:var(--mainColor);}
+.process-card i{font-size:55px;color:var(--titleColor);position:relative;z-index:1;margin-bottom:20px;transition:.9s;}
+.process-card i::after{content:"";position:absolute;width:50px;height:50px;border-radius:50px;background-color:var(--optionalColor);top:25px;left:10px;z-index:-1;transition:.9s;}
+.process-card i:hover::after{right:10px;left:auto;}
+.process-card .icon-bg{width:95px;height:95px;background-color:var(--whiteColor);border-radius:50px;line-height:95px;display:inline-block;}
+.process-card h3{margin-bottom:15px;}
+.process-card p{margin-bottom:0;}
+.process-card .process-number{position:absolute;top:10px;right:0;font-size:40px;color:var(--paragraphColor);font-family:var(--sub-fontFamily);transition:var(--transition);}
+.process-card .process-number.active{color:var(--mainColor);}
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/css/responsive.css */
+@media only screen and (max-width:767px){
+.pt-100{padding-top:50px;}
+.pb-70{padding-bottom:20px;}
+.pt-45{padding-top:30px;}
+.section-title span{font-size:12px;}
+.section-title h2{font-size:24px;}
+.section-title p{padding-top:10px;}
+.process-card .process-number{right:10px;font-size:30px;}
+.process-card p{max-width:300px;margin-left:auto;margin-right:auto;}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+.pt-100{padding-top:50px;}
+.pb-70{padding-bottom:20px;}
+.pt-45{padding-top:30px;}
+.section-title span{font-size:12px;}
+.section-title h2{font-size:24px;}
+.section-title p{padding-top:10px;}
+.process-card .process-number{font-size:30px;}
+}
+/* @media only screen and (min-width:1350px){
+.container{max-width:1320px!important;margin:0 auto;}
+} */
+
+
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/fonts/flaticon.css */
+[class^=flaticon-]:before,[class^=flaticon-]:after{font-family:Flaticon;font-style:normal;}
+.flaticon-to-do-list:before{content:"\f110";}
+/*! CSS Used from: https://templates.hibootstrap.com/downtown/default/assets/css/style.css */
+.process-card:hover i::after{right:10px;left:auto;}
+.process-card i{font-size:55px;color:var(--titleColor);position:relative;z-index:1;margin-bottom:20px;transition:.9s;}
+.process-card i::after{content:"";position:absolute;width:50px;height:50px;border-radius:50px;background-color:var(--optionalColor);top:25px;left:10px;z-index:-1;transition:.9s;}
+.process-card i:hover::after{right:10px;left:auto;}
+.process-card .icon-bg{width:95px;height:95px;background-color:var(--whiteColor);border-radius:50px;line-height:95px;display:inline-block;}
+

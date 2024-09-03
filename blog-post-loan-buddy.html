@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="LoanBuddy - Premium site comparison for financial agencies, coperates and bank listing.">
-    <meta name="author" content="LoanBuddy">
+    <meta name="author" content="Ansonika">
     <title>LoanBuddy | Premium site comparison for financial agencies, coperates and bank listing.</title>
 
     <!-- Favicons-->
@@ -23,17 +23,20 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	<link href="css/vendors.css" rel="stylesheet">
+    
+    <!-- SPECIFIC CSS -->
+    <link href="css/blog.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
-	
+
 </head>
 
 <body>
 	
 	<div id="page">
 		
-	<header class="header menu_fixed">
+	<header class="header menu_fixed bg-white">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
 		<div id="logo">
 			<a href="index.html">
@@ -42,14 +45,9 @@
 			</a>
 		</div>
 		<!-- <ul id="top_menu">
-			<li>
-				<div class="styled-select" id="lang-selector">
-					<select>
-						<option value="English" selected>English</option>
-						<option value="Malay">Malay</option>
-					</select>
-				</div>
-			</li>
+			<li><a href="cart-1.html" class="cart-menu-btn" title="Cart"><strong>4</strong></a></li>
+			<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
+			<li><a href="wishlist.html" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
 		</ul> -->
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -63,11 +61,7 @@
 			<ul>
 				<li><span><a href="index.html">Home</a></span></li>
 				<li><span><a href="about-loan-buddy.html">About Us</a></span></li>
-				<!-- <li><span><a href="about-loan-buddy.html">About Us</a></span></li>
-				<li><span><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></span></li> -->
-				<!-- <li><span><a href="apply-now-loan-buddy.html">Apply Now</a></span></li> -->
 				<li><span><a href="contacts-loan-buddy.html">Contact Us</a></span></li>
-				<!-- <li><span><a href="contacts-loan-buddy.html">BM</a></span></li> -->
 				<li><span><a href="blog-loan-buddy.html">Blog</a></span></li>
 			</ul>
 		</nav>
@@ -76,88 +70,69 @@
 	<!-- /header -->
 	
 	<main>
-		<!-- <section class="hero_in contacts">
+		<section class="hero_in general">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Contact Us</h1>
+					<h1 class="fadeInUp"><span></span>LoanBuddy blog</h1>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!--/hero_in-->
 
+		<div class="container margin_60_35">
+			<div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="bloglist singlepost">
+						<p><img alt="" class="img-fluid" src="img/blog-single.jpg"></p>
+						<h1>Your blog article title</h1>
+						<div class="postmeta">
+							<ul>
+								<li><a href="#"><i class="icon_folder-alt"></i> Collections</a></li>
+								<li><a href="#"><i class="icon_clock_alt"></i> 23/12/2015</a></li>
+								<li><a href="#"><i class="icon_pencil-edit"></i> Admin</a></li>
+								<li><a href="#"><i class="icon_comment_alt"></i> (14) Comments</a></li>
+							</ul>
+						</div>
+						<!-- /post meta -->
+						<div class="post-content">
+							<div class="dropcaps">
+								<p>Aorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div>
 
-
-		<div class="bg_color_1">
-			<div class="container margin_80_55">
-				<div class="main_title_2 mb-2">
-					<!-- <span><em></em></span> -->
-					<h2>Contact Us</h2>
-					<p>Welcome to let us know if have any questions.</p>
-				</div>
-
-				<div class="wrapper row justify-content-between margin-contact-form">
-					<div class="col-lg-5">
-						<!-- <div class="map_contact">
-						</div> -->
-						<div id="map" class="map map_single add_bottom_30"></div>
-						<!-- /map -->
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+						</div>
+						<!-- /post -->
 					</div>
-					<div class="col-lg-6">
-						<h4>Send us a message</h4>
-						<p></p>
-						<div id="message-contact"></div>
-						<form method="post" action="phpmailer/contact_template_email.php" id="contactform" autocomplete="off">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Name</label>
-										<input class="form-control" type="text" id="name_contact" name="name_contact">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Last name</label>
-										<input class="form-control" type="text" id="lastname_contact" name="lastname_contact">
-									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Email</label>
-										<input class="form-control" type="email" id="email_contact" name="email_contact">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Telephone</label>
-										<input class="form-control" type="text" id="phone_contact" name="phone_contact">
-									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<label>Message</label>
-								<textarea class="form-control" id="message_contact" name="message_contact" style="height:150px;"></textarea>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label>Are you human? 3 + 1 =</label>
-										<input class="form-control" type="text" id="verify_contact" name="verify_contact">
-									</div>
-								</div>
-							</div>
-							<p class="add_top_30"><input type="submit" value="Submit" class="btn_1 rounded" id="submit-contact"></p>
-						</form>
-					</div>
+					<!-- /single-post -->
+
+					<hr>
+
+					<h5>Leave a Comment</h5>
+					<form>
+						<div class="form-group">
+							<input type="text" name="name" id="name2" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<input type="text" name="email" id="email2" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<input type="text" name="email" id="website3" class="form-control" placeholder="Website">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" name="comments" id="comments2" rows="6" placeholder="Message Below"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" id="submit2" class="btn_1 rounded add_bottom_30"> Submit</button>
+						</div>
+					</form>
 				</div>
-				<!-- /row -->
+				<!-- /col -->
+
+				<!-- /aside -->
 			</div>
-			<!-- /container -->
+			<!-- /row -->
 		</div>
-		<!-- /bg_color_1 -->
+		<!-- /container -->
 	</main>
 	<!--/main-->
 	
@@ -183,7 +158,6 @@
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about-loan-buddy.html">About Us</a></li>
-						<!-- <li><a href="tours-grid-sidebar-loan-buddy.html">Loan Comparison</a></li> -->
 						<li><a href="contacts-loan-buddy.html">Contact Us</a></li>
 						<li><a href="apply-now-loan-buddy.html">Apply Now</a></li>
 						<li><a href="blog-loan-buddy.html">Blog</a></li>
@@ -301,13 +275,6 @@
     <script src="js/common_scripts.js"></script>
     <script src="js/main.js"></script>
 	<script src="phpmailer/validate.js"></script>
-	
-	<!-- SPECIFIC SCRIPTS -->
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/map_branches_loan_buddy.js"></script>
-	<script src="js/infobox.js"></script>
-	<!-- <script src="js/mapmarker.jquery.js"></script>
-	<script src="js/mapmarker_func.jquery.js"></script> -->
-	
+
 </body>
 </html>
